@@ -2,7 +2,7 @@ import { useState } from 'react';
 import ProductForm from './components/ProductForm';
 import ProductCard from './components/ProductCard';
 import { generateProductDetails, type ProductDetails } from './services/aiService';
-import './App.css';
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
